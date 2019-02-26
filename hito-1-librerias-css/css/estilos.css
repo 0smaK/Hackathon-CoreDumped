@@ -91,6 +91,11 @@ div.curso-info{
     margin-bottom:5px;
 }
 
+nav{
+    height: 75px;
+    padding-top:5px;
+}
+
 .montserrat{
     font-family: 'Montserrat', sans-serif;
 }
