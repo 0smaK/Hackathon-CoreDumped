@@ -37,6 +37,15 @@
 
             }
         });
+
+        $(document).ready(function () {
+            $('.carousel').carousel();
+        });
+
+        $(document).ready(function () {
+            $('.collapsible').collapsible();
+        });
+
     </script>
 
     <!-- tooltip -->
@@ -92,7 +101,10 @@
                     </center>
                 </div>
                 <div class="col s12 m6">
-                    <h3 class="montserrat"><i class="fas fa-info-circle"></i> ¿Quién soy?</h3>
+                    <div class="titulo-info"><i class="material-icons md-48">info</i>
+                        <h3 class="montserrat"> ¿Quién soy?</h3>
+                    </div>
+
                     <p class="quiensoy roboto">¡Hola! Soy Óscar, vivo en Madrid y soy un estudiante en la Escuela
                         Técnica Superior de Ingeniería de Sistemas Informaticos, apasionado por la tecnología, la
                         programación y el desarrollo web y el diseño en Photoshop
@@ -112,14 +124,15 @@
             <div class="row">
                 <div class="col s12">
                     <center>
-                        <h3 class="montserrat"><i class="fas fa-graduation-cap"></i> Cursos realizados</h3>
+                        <h3 class="montserrat"><i class="material-icons md-48">school</i> Cursos realizados</h3>
                     </center>
                     <div class="row">
                         <div class="col s12 m6">
                             <center>
                                 <div class="card">
                                     <div class="card-image curso-img">
-                                        <img width="20%" height="auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png">
+                                        <img width="20%" height="auto"
+                                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png">
                                     </div>
                                     <div class="card-content texto-negro">
                                         <center>
@@ -130,7 +143,11 @@
                                                 <span class="curso-info"><i class="far fa-calendar-alt"></i>
                                                     &nbsp;Noviembre de 2018</span>
                                             </div>
-                                            <p>Durante noviembre del año pasado gracias a Samsung y a la Universidad Politécnica de Madrid me formé en el desarrollo web, aprendiendo el funcionamiento de nodejs, gestiones de paquetes con npm, frameworks de node cómo Express, Express Generator y AngularJS utilizando Typescript, creacción de un CRUD con las anteriores herramientas, etc...</p>
+                                            <p>Durante noviembre del año pasado gracias a Samsung y a la Universidad
+                                                funcionamiento de nodejs, gestiones de paquetes con npm, frameworks de
+                                                Politécnica de Madrid me formé en el desarrollo web, aprendiendo el
+                                                node cómo Express, Express Generator y AngularJS utilizando Typescript,
+                                                creacción de un CRUD con las anteriores herramientas, etc...</p>
                                         </center>
                                     </div>
                                 </div>
@@ -140,7 +157,8 @@
                             <center>
                                 <div class="card">
                                     <div class="card-image curso-img">
-                                        <img width="20%" height="auto" src="https://pbs.twimg.com/profile_images/742819829178978304/iMDFpW6i.jpg">
+                                        <img width="20%" height="auto"
+                                            src="https://pbs.twimg.com/profile_images/742819829178978304/iMDFpW6i.jpg">
                                     </div>
                                     <div class="card-content texto-negro">
                                         <center>
@@ -151,7 +169,9 @@
                                                 <span class="curso-info"><i class="far fa-calendar-alt"></i>
                                                     &nbsp;Enero de 2018</span>
                                             </div>
-                                            <p>En este curso tuve la oportunidad de aprender SAP GRC y el uso de sus herramientas para la segregación de funciones, la gestión de controles, riesgos y administración de fraudes, impartido por Deloitte </p>
+                                            <p>En este curso tuve la oportunidad de aprender SAP GRC y el uso de sus
+                                                herramientas para la segregación de funciones, la gestión de controles,
+                                                riesgos y administración de fraudes, impartido por Deloitte </p>
                                         </center>
                                     </div>
                                 </div>
@@ -176,7 +196,9 @@
                                                 <span class="curso-info"><i class="far fa-calendar-alt"></i>
                                                     &nbsp;Diciembre de 2017</span>
                                             </div>
-                                            <p>En el último mes de 2017 aprendi a desarrollar aplicaciones para los dispositivos Samsumg bajo el sistema operativo Tizen en concreto para relojes inteligentes y televisiones inteligentes.</p>
+                                            <p>En el último mes de 2017 aprendi a desarrollar aplicaciones para los
+                                                dispositivos Samsumg bajo el sistema operativo Tizen en concreto para
+                                                relojes inteligentes y televisiones inteligentes.</p>
                                         </center>
                                     </div>
                                 </div>
@@ -211,6 +233,97 @@
                 </div>
 
             </div>
+        </div>
+    </section>
+    <section class="secciones white">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <center>
+                        <h3 class="montserrat"><i class="material-icons md-48"></i><span>Algunos de mis proyectos y portfolio <span class="badge yellow texto-negro new" data-badge-caption="">TO-DO: FIX RESPONSIVE</span></span></h3>
+                    </center>
+                    
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header"><img style="margin-right:15px;" width="36px" height="36px"
+                                    src="https://i.imgur.com/AX5nJpr.png" alt="Logo Pokemon Go to Old Android"><span
+                                    style="font-size:24px;"> Pokemon GO to Old
+                                    Android &nbsp;<span class="badge red new" data-badge-caption="">Anticuado /
+                                        Abandonado</span></span><span class="badge orange new"
+                                    data-badge-caption="">JAVA</span></div>
+                            <div class="collapsible-body"><span>
+                                    <div class="row">
+                                        <div class="col s12 m6">
+                                            <center>
+                                                <img class="responsive-img" src="https://i.imgur.com/S1fFP1e.png">
+                                                <img class="responsive-img" src="https://i.imgur.com/LtqSINh.png">
+                                            </center>
+                                        </div>
+                                        <div class="col s12 m6">
+                                            Pokemon Go to Old Android fue una herramienta que desarrolle en agosto de
+                                            2016 con la salida de Pokémon GO y basicamente decompila el apk y modifica
+                                            la version minima necesaria para la app, asi se podía jugar a través de
+                                            moviles desde la versión 4.0.0<br>
+                                            <br><span style="color:red;font-size:12px">- Para funcionar utiliza
+                                                APKTools y JARSigner
+
+                                                <br>- Esta herramienta ya no está disponible para descargar, debido a
+                                                que ya apenas hay dispositivos con una version de Android inferior a
+                                                4.4.4 y no funcionaba con todos los dispositivos.
+                                            </span>
+                                        </div>
+                                    </div>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><img
+                                    src="https://instagram.fmad8-1.fna.fbcdn.net/vp/6d8265e780032d9f57648841024e8085/5D0CB7AA/t51.2885-19/s150x150/50725994_449272882276850_4594264149311094784_n.jpg?_nc_ht=instagram.fmad8-1.fna.fbcdn.net"
+                                    style="border-radius:50%;margin-right:15px;" width="36px" height="36px"><span
+                                    style="font-size:24px;"> Flexer* Clothing</span><span class="badge blue new"
+                                    data-badge-caption="">WEB DESIGN</span></div>
+                            <div class="collapsible-body"><span>Desarrollo web para la tienda de ropa online Flexer*
+                                    Clothing usando la api de bigcartel.<br><br>
+                                    <center><img src="https://i.imgur.com/bwFXLaQ.png" width="90%;"></center>
+                                </span></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><img src="https://i.imgur.com/RuOF4fi.png"
+                                    style="margin-right:15px;" width="36px" height="21.34px"><span style="font-size:24px;">
+                                    GazpachoGame &nbsp;<span class="badge red new"
+                                        data-badge-caption="">Abandonado</span></span> <span class="badge blue new"
+                                    data-badge-caption="">PHP / JS (front-end)</span></div>
+                            <div class="collapsible-body"><span>Minijuego basado en el famoso cookie clicker pero con
+                                    gazpacho.<br><br>
+                                </span></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><span style="font-size:24px;">
+                                    <i class="fas fa-robot"></i> osmakBOT (Telegram)&nbsp;<span
+                                        class="badge yellow new texto-negro"
+                                        data-badge-caption="">Desactualizado</span></span> <span
+                                    class="badge purple new" data-badge-caption="">Python</span></div>
+                            <div class="collapsible-body"><span>
+                                    Bot simple en python, muestran los dias restantes para el festival Dreambeach de
+                                    2018 (desactualizado) y envia foto del cartel.<br>
+                                    Comando para pokemon showdown mediante web scrapping y muestra tus resultados (tiene
+                                    bugs)
+                                    <br><br>
+                                    <div class="row">
+                                        <div class="col s12 m6"><img class="responsive-img"
+                                                src="https://i.imgur.com/GVTbAMX.png"></div>
+                                        <div class="col s12 m6"><img class="responsive-img"
+                                                src="https://i.imgur.com/yzN9dxb.png"></div>
+                                    </div>
+                                </span>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
         </div>
     </section>
 </body>

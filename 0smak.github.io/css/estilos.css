@@ -47,6 +47,16 @@ body { margin: 0; }
     transform: rotate(900deg);    
 }
 
+.titulo-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.md-48{
+    font-size:48px!important;
+}
+
 .contenidoprincipal {
     margin-top:0;
     z-index: 0;
