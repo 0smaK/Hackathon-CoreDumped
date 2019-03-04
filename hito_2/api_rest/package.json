@@ -1,0 +1,24 @@
+{
+  "name": "api_rest",
+  "version": "1.0.0",
+  "description": "api rest que devuelve la hora actual y las estrellas del repositiorio 0smak.github.io",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0smak/Hackathon-CoreDumped.git"
+  },
+  "author": "osmak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0smak/Hackathon-CoreDumped/issues"
+  },
+  "homepage": "https://github.com/0smak/Hackathon-CoreDumped#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
