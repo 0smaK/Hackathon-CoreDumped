@@ -17,6 +17,14 @@ body { margin: 0; }
 #menu{
     transition: 0.5s;
 }
+
+.botonsubir{
+    border-left: 2px solid #8a0e39;
+    border-right: 2px solid #8a0e39;
+    border-top: 2px solid #8a0e39;
+    border-bottom: 2px solid #8a0e39;
+}
+
 .affix {
     position: fixed;
     top:0;
