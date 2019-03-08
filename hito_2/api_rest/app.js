@@ -11,6 +11,7 @@ app.use(morgan('dev')) // nos muestra todos los mensajes por consola, info de pe
 
 //rutas
 require('./routes/hora')(app)
+require('./routes/estrellas')(app)
 
 app.listen(app.get('port'), () => {
     console.log("Servidor en el puerto 3000")
