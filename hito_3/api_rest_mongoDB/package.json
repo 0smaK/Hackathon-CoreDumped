@@ -4,7 +4,7 @@
   "description": "api rest with users model using node.js and mongoDB",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "dev": "nodemon ."
   },
   "author": "",
   "license": "ISC",
