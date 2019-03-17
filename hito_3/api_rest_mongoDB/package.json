@@ -7,7 +7,7 @@
     "dev": "nodemon .",
     "start": "node ."
   },
-  "author": "",
+  "author": "0smak",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
