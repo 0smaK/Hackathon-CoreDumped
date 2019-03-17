@@ -1,0 +1,13 @@
+sceneSetups:
+- path: Assets/prototype_1.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/prototype_1.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/prototype_1.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/prototype_1.unity
+  isLoaded: 1
+  isActive: 1
